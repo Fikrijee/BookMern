@@ -1,0 +1,97 @@
+:root {
+  /* Theme Colors */
+  --primary-color: #3b82f6;       /* Modern blue */
+  --primary-light: #60a5fa;       /* Lighter blue */
+  --primary-dark: #2563eb;        /* Darker blue */
+  
+  --secondary-color: #6b7280;     /* Slate gray */
+  --secondary-light: #9ca3af;
+  --secondary-dark: #4b5563;
+  
+  --success-color: #22c55e;       /* Modern green */
+  --success-light: #4ade80;
+  --success-dark: #16a34a;
+  
+  --danger-color: #ef4444;        /* Modern red */
+  --danger-light: #f87171;
+  --danger-dark: #dc2626;
+  
+  --warning-color: #f59e0b;       /* Modern amber */
+  --warning-light: #fbbf24;
+  --warning-dark: #d97706;
+  
+  --info-color: #0ea5e9;          /* Modern sky blue */
+  --info-light: #38bdf8;
+  --info-dark: #0284c7;
+
+  /* Neutral Colors */
+  --background-primary: #ffffff;
+  --background-secondary: #f8fafc;
+  --background-tertiary: #f1f5f9;
+  
+  /* Text Colors */
+  --text-primary: #0f172a;        /* Dark slate */
+  --text-secondary: #475569;
+  --text-tertiary: #94a3b8;
+  --text-inverse: #ffffff;
+  
+  /* Border Styles */
+  --border-thin: 1px;
+  --border-medium: 2px;
+  --border-thick: 3px;
+  --border-color: #e2e8f0;
+  --border-radius-xs: 2px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 24px;
+  --border-radius-full: 9999px;
+  
+  /* Spacing Scale (8-point grid) */
+  --space-1: 0.25rem;   /*  4px */
+  --space-2: 0.5rem;    /*  8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.5rem;    /* 24px */
+  --space-6: 2rem;      /* 32px */
+  --space-7: 2.5rem;    /* 40px */
+  --space-8: 3rem;      /* 48px */
+  
+  /* Enhanced Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+  --shadow-xl: 0 15px 25px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.25);
+  
+  /* Transitions & Animations */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Typography Scale (1.250 Perfect Fourth) */
+  --font-size-xs: 0.8rem;     /* 12.8px */
+  --font-size-sm: 1rem;       /* 16px */
+  --font-size-md: 1.25rem;    /* 20px */
+  --font-size-lg: 1.563rem;   /* 25px */
+  --font-size-xl: 1.953rem;   /* 31.25px */
+  --font-size-2xl: 2.441rem;  /* 39.06px */
+  --font-size-3xl: 3.052rem;  /* 48.83px */
+  
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  
+  /* Z-index Scale */
+  --z-negative: -1;
+  --z-elevate: 1;
+  --z-sticky: 100;
+  --z-drawer: 200;
+  --z-dropdown: 300;
+  --z-modal: 400;
+  --z-popover: 500;
+  --z-toast: 600;
+  --z-tooltip: 700;
+}

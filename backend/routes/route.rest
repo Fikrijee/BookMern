@@ -1,0 +1,36 @@
+### Get all books
+GET http://localhost:5001/books
+
+### Get one book
+GET http://localhost:5001/books/65605fe6aa78761e9a4f8cfb
+
+### Update book
+PATCH http://localhost:5001/books/68114ef1028797db4d2a6cb3
+Content-Type: application/json
+
+{
+    "BookName": "1984",
+    "Author": "George Orwell",
+    "Genre": ["Fiction"],
+    "Description": "Written more than 70 years ago...",
+    "Availability": "Available",
+    "Quantity": 11,
+    "Price": 10
+}
+
+### Delete book
+DELETE http://localhost:5001/books/6560bc139e4b7f08ff603a1b
+
+### Add new book
+POST http://localhost:5001/books
+Content-Type: application/json
+
+{
+    "BookName": "Test Book",
+    "Author": "Test Author",
+    "Genre": ["Test"],
+    "Description": "Test description",
+    "Availability": "Available",
+    "Quantity": 1,
+    "Price": 9.99
+}
